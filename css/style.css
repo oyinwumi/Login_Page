@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color:  #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 80rem;
+    height: 45rem;
+    margin: 40px auto;
+    background-color: #2148C0;
+    background-image: url(../images/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cart-image{
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+}
+.user-icon{
+    background-image: url(../images/user.svg);
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+    padding-left:30px;
+    margin-bottom: 1.2rem;
+  
+}
+
+.lock-icon {
+    background-image: url(../images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+    padding-left:30px;
+    margin-bottom: 1.2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 18.75rem;
+    height: 2.9rem;
+    border-radius: 4px;
+    outline: none;
+    background-color:#2148C0 ;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    text-transform: capitalize;
+    transition: 0.3s;
+    font-size: 16px;
+
+ 
+    
+}
+ 
+::placeholder{
+    font-size: 14px;
+    color: #E5E5E5;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    padding-left: 15px;
+}
+.btn {
+        width: 18.75rem;
+        height: 2.9rem;
+        border-radius: 4px;
+        outline: none;
+        background-color: #FFFFFF;
+        color: #2148C0 ;
+        border: 2px solid #FFFFFF;
+         text-align: center;
+         font-size: 1rem;
+         font-weight: 600;
+         margin-top: 1.5rem;
+         cursor: pointer;
+}
+.btn:hover{
+    background-color: #2148C0;
+    color: #FFFFFF;
+}
+p{
+    text-align: right;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
